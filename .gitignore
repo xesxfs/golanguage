@@ -120,3 +120,13 @@ chapter10/vault/vaultsrv
 chapter11/vault/vaultd
 
 chapter5/twittervotes/setup.sh
+src/github.com/clbanning/x2j/
+src/github.com/gorilla/websocket/
+src/github.com/stretchr/codecs/
+src/gopkg.in/mgo.v2/
+src/github.com/ugorji/go/
+src/github.com/stretchr/tracer/
+src/github.com/stretchr/stew/
+src/github.com/stretchr/signature/
+src/github.com/stretchr/objx/
+src/github.com/stretchr/gomniauth/
