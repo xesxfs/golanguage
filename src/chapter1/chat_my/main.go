@@ -1,9 +1,11 @@
 package main
 
 import (
+	_ "chapter1/trace_my"
 	"flag"
 	"log"
 	"net/http"
+	_ "os"
 	"path/filepath"
 	"sync"
 	"text/template"
@@ -42,6 +44,7 @@ func main() {
 	// })
 
 	r := newRoom()
+	// r.tracer = trace_my.New(os.Stdout)
 
 	http.Handle("/", &templateHandler{filename: "chat.html"})
 	http.Handle("/room", r)
